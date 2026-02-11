@@ -1,0 +1,7 @@
+.PizzaContainer{
+    background-color: var(--light-gray);
+    background-image: url(../../../../images/popularPizzaImg.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: bottom left;
+}

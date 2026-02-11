@@ -1,0 +1,146 @@
+.modal-content{
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+.modal-dialog{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.btn-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+}
+
+.ModalImg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.ModalDescription {
+ padding-left: 30px;
+ padding-right: 27px;
+ margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}
+.ModalDescription p:nth-child(1){
+font-size:25px ;
+font-weight: 600;
+color: var(--orange);
+margin: 0px;
+font-family: "Poppins", sans-serif;
+}
+.ModalDescription p:nth-child(2){
+    font-size:13px ;
+    font-weight: 300;
+    color: var(--black);
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.ModalDescription p:nth-child(3){
+        font-size:18px;
+        font-weight: 600;
+        color: var(--black);
+        margin: 0px;
+        font-family: "Poppins", sans-serif;
+ }
+ .ModalDescription p:nth-child(4){
+    font-size:12px !important;
+    font-weight: 400;
+    color: var(--black);
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.ModalDescription span{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+.modal-footer{
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+padding-left: 30px;
+padding-right:30px ;
+}
+
+.counterBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.counterBtns p{
+    color: var(--black);
+    font-size: 18px;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.ModalInput{
+    padding: 10px ;
+    width: 100%;
+    border-radius: 10px;
+    border:1px solid  gray;
+    margin-bottom: 10px;
+    font-size: 16px;
+    overflow: hidden;
+    height: 50px;
+}
+.card-btn{
+    width: 270px;
+    height: 32px;
+    border: none;
+    background: var(--orange);
+    cursor: pointer;
+    border-radius: 30px;
+    color: var(--pure-white);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+@media screen and (max-width:480px) {
+    .modal-content{
+      width: 95%;
+      margin-right: 15px;
+    }
+    .modal-dialog{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-btn{
+        width: 112px;
+        font-size: 10px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .ModalDescription{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,15 @@
+.FeaturedContainer{
+background-image: url(../../../../images/feturedBgImg2.png), url(../../../../images/featuredBgImg1.png);
+background-repeat: no-repeat ,no-repeat ;
+background-position:bottom right , bottom left;
+background-size: 300px, 150px;
+}
+
+/* 
+@media only screen and (max-width:768px){
+    .FeaturedContainer{
+        background-repeat: repeat, repeat;
+        background-position:left left, right right;
+        background-size: 500px, 500px;
+    }
+} */

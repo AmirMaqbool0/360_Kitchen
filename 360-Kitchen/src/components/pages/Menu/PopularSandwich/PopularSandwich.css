@@ -1,0 +1,6 @@
+.sandwichContainer{
+    background-image: url(../../../../images/peporoni.png),url(../../../../images/popularSandwich.png);
+background-repeat: no-repeat, no-repeat;
+background-position: bottom left , bottom right;
+background-size: 200px, 250px;
+}

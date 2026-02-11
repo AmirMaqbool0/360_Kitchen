@@ -1,0 +1,23 @@
+.product-container{
+    width: 80%;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-box{
+width: 97%;
+height: 97%;
+border: 2px solid var(--blackwhite);
+background: var(--offwhite);
+border-radius: 20px;
+list-style: none;
+}
+.product-box-text{
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--orange);
+}

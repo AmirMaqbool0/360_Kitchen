@@ -1,0 +1,67 @@
+.wellcome-container{
+    width: 80%;
+    height: calc(100vh , 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wellcome-box{
+    width: 97%;
+    height: 97%;
+    border: 2px solid var(--blackwhite);
+    border-radius: 20px;
+    background: var(--offwhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.wellcome-titel,.wellcome-text,.wellcome-image{
+    display: flex;
+    flex-direction: column;
+}
+.wellcome-titel,.wellcome-text,.wellcome-image span{
+    font-size: 22px;
+    color: var(--orange);
+    font-weight: 600;
+}
+.wellcome-image{
+    margin-right: 110px;
+}
+.wellcome-titel input{
+    width: 400px;
+    height:45px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid var(--blackwhite);
+    padding: 10px;
+    outline: none;
+    background: var(--white); 
+}
+.wellcome-text textarea{
+    width: 400px;
+    height:170px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid var(--blackwhite);
+    padding: 10px;
+    outline: none;
+    background: var(--white);
+}
+.wellcone-btn{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 40px;
+}
+.wellcone-btn button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}

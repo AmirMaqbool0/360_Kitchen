@@ -1,0 +1,98 @@
+.adddrink-container {
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adddrink-box {
+  width: 97%;
+  height: 97%;
+  background: var(--white);
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  background: var(--offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.adddrink-name-desscription,
+.adddrink-price-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.adddrink-name,
+.adddrink-description,
+.adddrink-price,
+.adddrink-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.adddrink-name input {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.adddrink-description textarea {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 200px;
+}
+.adddrink-price input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.adddrink-rating input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.adddrink-image {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 120px;
+  background: var(--white);
+}
+.adddrink-name,
+.adddrink-description,
+.adddrink-price,
+.adddrink-price-rating,
+.adddrink-image span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--orange);
+}
+.adddrink-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.adddrink-btn button{
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+}

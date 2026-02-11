@@ -1,0 +1,31 @@
+.product-header-container {
+  width: 100%;
+  height: 65px;
+  background: var(--white);
+  border-radius: 20px 20px 10px 10px;
+  color: var(--black);
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.product-header-container::-webkit-scrollbar {
+  width: 0;
+}
+.product-header-container ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+.product-header-container ul li {
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+}
+.active{
+color: var(--orange) !important;
+}

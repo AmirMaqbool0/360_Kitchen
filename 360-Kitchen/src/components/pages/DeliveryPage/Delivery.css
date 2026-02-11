@@ -1,0 +1,121 @@
+/* .DeliveryImg{
+    padding-right: 250px;
+    display: flex;
+    align-items: center;
+
+} */
+.deliveryContainerMain{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DeliveryImg{
+width: 300px;
+height: 300px;
+overflow: hidden;
+border-radius: 50%;
+}
+.delivery-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.DeliveryImg div{
+   border-radius: 50%;
+     
+}
+.DeliveryImg div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+.DeliveryDescription p:nth-child(1){
+    font-size: 20px;
+    color: var(--black);
+    font-weight: bold;
+}
+.DeliveryDescription p:nth-child(2){
+    font-size: 35px;
+    color: var(--black);
+    font-weight: bold;
+}
+.spanText{
+    color: var(--orange);
+    font-size: 40px;
+}
+.DeliveryDescription p:nth-child(3){
+    font-size: 16px;
+    color: var(--black);
+    font-family: "Poppins", sans-serif; 
+}
+/* .dilivery-heading span{
+   font-size: 35px;
+} */
+@media only screen and (max-width: 990px){
+/* .DeliveryImg{
+    padding-right: 120px;
+} */
+}
+@media only screen and (max-width: 1200px) {
+    .line img{
+        width: 30%;
+        
+    }
+    .DeliveryDescription{
+        margin-top: 50px;
+    }
+    
+    .DeliveryDescription div p:nth-child(2){
+      font-size: 40px;
+      
+    }
+    
+    .DeliveryDescription div p:nth-child(3){
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .deliveryContainerMain{
+        height: fit-content;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .delivery-content{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .DeliveryImg{
+        padding-left: 75px;
+        padding-right: 75px;
+    } */
+  }
+  @media only screen and (max-width: 480px) {
+    
+    .DeliveryDescription p:nth-child(1){
+        font-size: 18px !important;
+        color: var(--black);
+        font-weight: bold;
+    }
+    .DeliveryDescription p:nth-child(2){
+        font-size: 30px !important;
+        color: var(--black);
+        font-weight: bold;
+    }
+    
+    .DeliveryDescription p:nth-child(3){
+        font-size: 16px !important;
+        color: var(--black);
+        font-family: "Poppins", sans-serif; 
+    }
+    .spanText{
+        color: var(--orange);
+        font-size: 30px !important;
+    }
+    .DeliveryImg{
+        width: 250px;
+        height: 250px;
+    }
+  }

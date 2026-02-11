@@ -1,0 +1,98 @@
+.addtandoori-container {
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addtandoori-box {
+  width: 97%;
+  height: 97%;
+  background: var(--white);
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  background: var(--offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.addtandoori-name-desscription,
+.addtandoori-price-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.addtandoori-name,
+.addtandoori-description,
+.addtandoori-price,
+.addtandoori-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.addtandoori-name input {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addtandoori-description textarea {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 200px;
+}
+.addtandoori-price input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addtandoori-rating input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addtandoori-image {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 120px;
+  background: var(--white);
+}
+.addtandoori-name,
+.addtandoori-description,
+.addtandoori-price,
+.addtandoori-price-rating,
+.addtandoori-image span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--orange);
+}
+.addtandoori-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.addtandoori-btn button{
+  width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}

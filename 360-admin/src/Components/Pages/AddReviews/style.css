@@ -1,0 +1,72 @@
+.add-review-container {
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-review-box {
+  width: 97%;
+  height: 97%;
+  background: var(--white);
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  background: var(--offwhite);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.add-review-rating,
+.add-review-text,
+.add-review-image {
+  display: flex;
+  flex-direction: column;
+}
+.add-review-image {
+  margin-right: 110px;
+}
+.add-review-rating,
+.add-review-image,
+.add-review-text span {
+  font-size: 22px;
+  color: var(--orange);
+  font-weight: 600;
+}
+.add-review-rating input {
+  width: 400px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  background: var(--white);
+}
+.add-review-text textarea {
+  width: 400px;
+  height: 170px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  background: var(--white);
+}
+.add-review-btn {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-right: 40px;
+}
+.add-review-btn button{
+  width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}

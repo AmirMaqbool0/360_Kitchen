@@ -1,0 +1,7 @@
+.button-main{
+    height: 6vh;
+    background-color: orange; 
+    color: olive; 
+    justify-content: center;
+    align-items: center; 
+}

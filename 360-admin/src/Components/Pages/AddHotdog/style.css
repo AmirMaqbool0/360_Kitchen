@@ -1,0 +1,98 @@
+.addhot-dog-container {
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addhot-dog-box {
+  width: 97%;
+  height: 97%;
+  background: var(--white);
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  background: var(--offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.addhot-dog-name-desscription,
+.addhot-dog-price-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.addhot-dog-name,
+.addhot-dog-description,
+.addhot-dog-price,
+.addhot-dog-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.addhot-dog-name input {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addhot-dog-description textarea {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 200px;
+}
+.addhot-dog-price input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addhot-dog-rating input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addhot-dog-image {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 120px;
+  background: var(--white);
+}
+.addhot-dog-name,
+.addhot-dog-description,
+.addhot-dog-price,
+.addhot-dog-price-rating,
+.addhot-dog-image span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--orange);
+}
+.addhot-dog-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.addhot-dog-btn button{
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+}

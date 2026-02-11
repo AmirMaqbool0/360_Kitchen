@@ -1,0 +1,98 @@
+.addsikh-kabab-container {
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addsikh-kabab-box {
+  width: 97%;
+  height: 97%;
+  background: var(--white);
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  background: var(--offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.addsikh-kabab-name-desscription,
+.addsikh-kabab-price-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.addsikh-kabab-name,
+.addsikh-kabab-description,
+.addsikh-kabab-price,
+.addsikh-kabab-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.addsikh-kabab-name input {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addsikh-kabab-description textarea {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 200px;
+}
+.addsikh-kabab-price input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addsikh-kabab-rating input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addsikh-kabab-image {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 120px;
+  background: var(--white);
+}
+.addsikh-kabab-name,
+.addsikh-kabab-description,
+.addsikh-kabab-price,
+.addsikh-kabab-price-rating,
+.addsikh-kabab-image span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--orange);
+}
+.addsikh-kabab-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.addsikh-kabab-btn button{
+  width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}

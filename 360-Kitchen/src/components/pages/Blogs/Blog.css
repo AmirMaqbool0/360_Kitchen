@@ -1,0 +1,78 @@
+.BlogHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.BlogHeading p:nth-child(1){
+    font-size: 24px;
+    font-weight: bold;
+}
+.BlogHeading p:nth-child(2){
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* blog card css */
+.BlogCard{
+    background-color: #F8F6F5;
+    color: #080808;
+    font-size: 16px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.blog-titel-blog{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--orange);
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.blog-card-logo{
+    width: 100%;
+    height: 220px !important;
+    overflow: hidden;
+}
+.blog-card-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px 50px 0px 0px;
+}
+.BlogCardRow{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media only screen and (max-width: 668px) {
+    .BlogCardColumn{
+        margin-bottom: 20px;
+    }
+    .line{
+        width: 80px;
+    }
+  }
+
+  /* BlogPage CSS */
+.BlogCardRow {
+    flex-wrap: nowrap; /* Ensure cards stay in one line */
+    overflow-x: auto; /* Hide horizontal overflow */
+    transition: scroll-left 0.3s ease;
+   
+  }
+  .BlogCardRow::-webkit-scrollbar{
+    display: none;
+  }
+
+  @media screen and (max-width:480px) {
+    .BlogHeading p:nth-child(1){
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .BlogHeading p:nth-child(2){
+        font-size: 30px;
+        font-weight: bold;
+    }
+  }
+
+
+  

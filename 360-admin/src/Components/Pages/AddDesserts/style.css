@@ -1,0 +1,98 @@
+.adddessert-container {
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adddessert-box {
+  width: 97%;
+  height: 97%;
+  background: var(--white);
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  background: var(--offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.adddessert-name-desscription,
+.adddessert-price-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.adddessert-name,
+.adddessert-description,
+.adddessert-price,
+.adddessert-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.adddessert-name input {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.adddessert-description textarea {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 200px;
+}
+.adddessert-price input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.adddessert-rating input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.adddessert-image {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 120px;
+  background: var(--white);
+}
+.adddessert-name,
+.adddessert-description,
+.adddessert-price,
+.adddessert-price-rating,
+.adddessert-image span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--orange);
+}
+.adddessert-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.adddessert-btn button{
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+}

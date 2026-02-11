@@ -1,0 +1,98 @@
+.addaddon-container {
+  width: 80%;
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addaddon-box {
+  width: 97%;
+  height: 97%;
+  background: var(--white);
+  border: 1px solid rgb(116, 114, 114);
+  border-radius: 20px;
+  background: var(--offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.addaddon-name-desscription,
+.addaddon-price-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.addaddon-name,
+.addaddon-description,
+.addaddon-price,
+.addaddon-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.addaddon-name input {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addaddon-description textarea {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 200px;
+}
+.addaddon-price input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addaddon-rating input {
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 50px;
+}
+.addaddon-image {
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid var(--blackwhite);
+  padding: 10px;
+  outline: none;
+  height: 120px;
+  background: var(--white);
+}
+.addaddon-name,
+.addaddon-description,
+.addaddon-price,
+.addaddon-price-rating,
+.addaddon-image span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--orange);
+}
+.addaddon-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+.addaddon-btn button{
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+}

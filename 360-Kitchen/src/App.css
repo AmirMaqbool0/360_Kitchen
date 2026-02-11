@@ -1,0 +1,43 @@
+/* common colors use in whole app */
+:root{
+ --light-gray:#F4F1F1;
+  --orange:#e47719;
+  --white:#FFFDFC;
+  --jet-black:#1E1E1E;
+  --black:#000000;
+  --peach:#FFF6EF;
+  --gray:#EAE9E9;
+  --pure-white:white;
+
+  
+}
+/* font-family: "Poppins", sans-serif; */
+
+.button-main{
+  background-color: var(--orange); 
+  color: var(--white); 
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 30px;
+}
+
+  .OrangeText{
+    color: var(--orange);
+  }
+  .SliderBtn{
+    background-color: var(--orange);
+  border: none;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  *{
+    scroll-behavior:smooth;
+    scroll-margin: 77px;
+    font-family: "Poppins", sans-serif;
+  }

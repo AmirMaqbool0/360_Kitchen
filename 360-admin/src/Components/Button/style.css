@@ -1,0 +1,9 @@
+.main-btn button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}

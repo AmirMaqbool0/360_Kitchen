@@ -1,0 +1,7 @@
+.Add-Ons-Container{
+    background-color: var(--light-gray);
+    background-image: url(../../../../images/AddOnsImg1.png),url(../../../../images//AddOnsImg2.png);
+    background-position: bottom left, bottom right;
+    background-size: 250px,400px;
+    background-repeat: no-repeat, no-repeat;
+}

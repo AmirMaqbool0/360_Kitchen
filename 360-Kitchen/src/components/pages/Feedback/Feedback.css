@@ -1,0 +1,101 @@
+/* feedbackcard css  */
+.card{
+    background-color: white;
+    border-radius: 10%;
+    
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 370px;
+}
+.review-card-logo{
+    width: 100%;
+    height: 220px ;
+    overflow: hidden !important;
+
+}
+.review-card-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 38px 38px 0px 0px;
+    overflow: hidden;
+    
+}
+.feedback-content{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+/* FeedbackPage css */
+.FeedbackContainer{
+    background-color: var(--peach);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(../../../images/FeedbackImg.png);
+    background-size: cover;
+}
+.FeedbackHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FeedbackHeading p:nth-child(1){
+    font-size: 24px;
+    font-weight: bold;
+}
+.FeedbackHeading p:nth-child(2){
+    font-size: 35px;
+    font-weight: bold;
+}
+.FeedbackContainer{
+    background-color: var(--peach);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.FeedBackCardRow {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    transition: transform 0.6s ease;
+    
+}
+.FeedBackCardRow::-webkit-scrollbar{
+    display: none;
+}
+.FeedBackCardRow {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.feedback-rating{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 668px) {
+    .FeedbackCardColumn{
+        margin-bottom: 20px;
+    }
+    .line{
+        width: 80px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .FeedbackHeading p:nth-child(1){
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .FeedbackHeading p:nth-child(2){
+        font-size: 30px;
+        font-weight: bold;
+    }
+  }
